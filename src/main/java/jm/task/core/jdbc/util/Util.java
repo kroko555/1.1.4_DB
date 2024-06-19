@@ -23,6 +23,7 @@ public class Util {
         }
         return conn;
     }
+
     public static void closeConnection() {
         if (conn != null) {
             try {
