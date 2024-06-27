@@ -17,7 +17,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void createUsersTable() {
-        String sql = "CREATE TABLE Users (id INT PRIMARY KEY auto_increment, " +
+        String sql = "CREATE TABLE users (id INT PRIMARY KEY auto_increment, " +
                 "name VARCHAR(50) NOT NULL, " +
                 "lastName VARCHAR(50) NOT NULL , " +
                 "age TINYINT NOT NULL)";
